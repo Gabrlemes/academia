@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vh;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;;
+}
+
+body{
+  background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(./img/cbum.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-position-y: 0px;
+  
+}
+
+header{
+  width: 100%;
+  height: 7vh;
+  background-color: rgba(22, 22, 22, 0.9);
+}
+
+.titulo {
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content:  space-around;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.logo{
+  font-size: 1.8rem;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+}
+
+.titulo .list{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.titulo .list a {
+text-decoration: none;
+color: white;
+padding: 1.5rem;
+transition: 2ms ease-in;
+position: relative;
+}
+
+.titulo .list a:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 1px;
+  background-color: rgb(251, 251, 0);
+  transition: all 1s ease;
+  }
+
+  .titulo .list a:hover:before {
+  width: 100%;
+  }
