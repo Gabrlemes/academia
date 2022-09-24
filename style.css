@@ -142,3 +142,24 @@ position: relative;
   .btns button:hover:before{
     width: 100%;
   }
+
+  .maquinas{
+    margin-left: 80px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+  }
+  .treino{
+    margin-left: 1300px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+  }
+  .img{
+    margin-left: 10px;
+  }
+  .img1{
+    margin-left: 640px;
+  }
