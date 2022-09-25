@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 * { 
     margin: 0%;
     padding: 0%;
@@ -144,6 +146,7 @@ position: relative;
   }
 
   .maquinas{
+    display: inline-block;
     margin-left: 80px;
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -151,8 +154,9 @@ position: relative;
     text-transform: uppercase;
   }
   .treino{
-    margin-left: 1300px;
-    margin-bottom: 1rem;
+    display: inline-block;
+    margin-left: 800px;
+    margin-bottom: 1rem; 
     font-size: 2rem;
     color: white;
     text-transform: uppercase;
@@ -163,3 +167,34 @@ position: relative;
   .img1{
     margin-left: 640px;
   }
+  .creatina{
+    font-family: 'Abyssinica SIL', serif;
+    font-size:20px;
+    margin-left:2rem;
+  }
+  .h3{
+    border: 1px solid brown;
+    border-collapse: 20%;
+    display: inline-block;
+    margin-left: 800px;
+    margin-bottom: 1rem; 
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+  }
+
+.img2{
+  margin-left: 1rem;
+}
+.time{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-family: 'Aboreto', cursive;
+  margin-bottom: 1rem;
+  font-size:16px;
+}
+.linha{
+  margin-bottom: 1rem;
+    font-size: 2rem;
+    color: rgb(179, 176, 30);
+}
