@@ -16,13 +16,41 @@
     <main>
         <div clas="main">
             <h1 class="servicos">planos e valores </h1> <br>
-                <nav class="list">
-                <ul>
-                    <l1>avaliações</l1> <br>
-                    <l2>musculação 3x por semana</l2> <br>
-                    <l3>musculação 6x por semana</l3>
-                </nav>
+            <div class="slider">
+           
+                <div class="slides">
+                    <input type="radio" name ="radio-btn" id="radio1">
+                    <input type="radio" name ="radio-btn" id="radio2">
+                    <input type="radio" name ="radio-btn" id="radio3">
+    
+                    <div class="slide">
+                        <img src="./img/acad.png" alt="imagem ilustrativa" />
+                    </div>
+                        
+                    <div class="slide">
+                        <img src="./img/PLANOS.jpeg" alt="planos" />
+                    </div>
+    
+                    <div class="slide">
+                        <img src="./img/644306275814449.jpg" alt="avaliação" />
+                    </div>
+    
+                    <div class="navegation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+    
+                <div class="manual-navegation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
         </div>
-                
+    </main>
+
+    <script src="script.js"></script>            
 </body>
 </html>
