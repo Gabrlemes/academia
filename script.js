@@ -1,5 +1,10 @@
 let count = 1; 
-document.getElementById("radio1").checked = true;
+let teste = document.getElementById("radio1").checked = true;
+
+let id=$(this).find("label").attr("for");
+$("."+id).on("click",function (e,h){
+    console.log(e,h); 
+})    
 
 setInterval( function(){
 
