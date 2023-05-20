@@ -11,7 +11,7 @@ html {
     height: 100%;
     font-size: 62.5%;
     color: white;
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;
 }
 
 body{
@@ -63,7 +63,7 @@ position: relative;
   bottom: 0;
   left: 0;
   width: 0px;
-  height: 1px;
+  height: 2px;
   background-color: rgb(251, 251, 0);
   transition: all 1s ease;
   }
